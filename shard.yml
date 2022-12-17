@@ -1,0 +1,18 @@
+name: cr-sdl2-example
+version: 0.1.0
+
+authors:
+  - noqisofon <ned.rihine@gmail.com>
+
+description: |
+  shard sdl2 を使ってみるテスト。
+
+targets:
+  cr-sdl2-example:
+    main: src/main.cr
+
+dependencies:
+  sdl2:
+    github: noqisofon/SDL2-Crystal
+
+license: MIT
